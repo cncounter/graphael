@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>gRaphael— 图表绘制工具</title>
+		<title>gRaphael—JavaScript 图表绘制工具</title>
 		<meta http-equiv="content-language" content="en">
 		<meta charset="utf-8">
 		<meta name="author" content="Dmitry Baranovskiy">
@@ -24,12 +24,13 @@
 			<div id="column-1">
 				<h2 id="what-is-it"><span>&nbsp;</span>简介</h2>
 				<p>
-					gRaphael’s goal is to help you create stunning charts on your website. It is based on <a href="//raphaeljs.com/" target="_blank" title="Raphael—JavaScript Library">Raphael</a> graphics library. Check out the demos to see static and interactive charts in action.
+					使用 gRaphael 可以在网页上生成各种漂亮的图表. 依赖图形库 <a href="//raphaeljs.com/" target="_blank" title="Raphael—JavaScript Library">Raphael</a> 的支持.
+					您可以通过查看相关的 Demo 来上手, 包括静态图表的和交互式图表.
 				</p>
 				<p class="not-prime">
-					gRaphael currently supports Firefox&nbsp;3.0+, Safari&nbsp;3.0+, Opera&nbsp;9.5+ and Internet Explorer&nbsp;6.0+.
+					gRaphael 现在兼容 Firefox&nbsp;3.0+, Safari&nbsp;3.0+, Opera&nbsp;9.5+ and Internet Explorer&nbsp;6.0+ 以及其他(同样内核 的)浏览器.
 				</p>
-				<h2 id="how-to-use-it"><span>&nbsp;</span>How to use it?</h2>
+				<h2 id="how-to-use-it"><span>&nbsp;</span>使用说明</h2>
 				<p>
 					下载后在 HTML页面中按顺序引入 <code>
 						raphael.js</code>
@@ -52,25 +53,25 @@
 <code><span class="c">// 以坐标 320, 200 为中心点, 创建饼图</span></code>
 <code><span class="c">// 饼图的半径为 100， 使用数据: [55, 20, 13, 32, 5, 1, 2]</span></code>
 <code>r.piechart(<span class="d">320</span>, <span class="d">240</span>, <span class="d">100</span>, [<span class="d">55</span>, <span class="d">20</span>, <span class="d">13</span>, <span class="d">32</span>, <span class="d">5</span>, <span class="d">1</span>, <span class="d">2</span>]);</code></pre>
-				<h2 id="demo"><span>&nbsp;</span>Demos</h2>
+				<h2 id="demo"><span>&nbsp;</span>示例</h2>
 				<ul id="demos">
 					<li id="pie">
-						<a target="_blank" href="piechart.html" title="Static Pie Chart">Static Pie Chart</a>
+						<a target="_blank" href="piechart.html" title="静态饼图(Static Pie Chart)">静态饼图(Static Pie Chart)</a>
 					</li>
 					<li id="pie2">
-						<a target="_blank" href="piechart2.html" title="Interactive Pie Chart">Interactive Pie Chart</a>
+						<a target="_blank" href="piechart2.html" title="交互式饼图(Interactive Pie Chart)">交互式饼图(Interactive Pie Chart)</a>
 					</li>
 					<li id="bar">
-						<a target="_blank" href="barchart.html" title="Static Bar Charts">Static Bar Charts</a>
+						<a target="_blank" href="barchart.html" title="静态柱状图(Static Bar Charts)">静态柱状图(Static Bar Charts)</a>
 					</li>
 					<li id="bar2">
-						<a target="_blank" href="barchart2.html" title="Interactive Bar Charts">Interactive Bar Charts</a>
+						<a target="_blank" href="barchart2.html" title="交互式柱状图(Interactive Bar Charts)">交互式柱状图(Interactive Bar Charts)</a>
 					</li>
 					<li id="line">
-						<a target="_blank" href="linechart.html" title="Line Charts">Line Charts</a>
+						<a target="_blank" href="linechart.html" title="折线图(Line Charts)">折线图(Line Charts)</a>
 					</li>
 					<li id="dot">
-						<a target="_blank" href="dotchart.html" title="Dot Chart">Dot Chart</a>
+						<a target="_blank" href="dotchart.html" title="散点图(Dot Chart)">散点图(Dot Chart)</a>
 					</li>
 					<!-- <li id="basic"><a href="basic.html" title="Basic Primitives">Basic Primitives</a></li> -->
 				</ul>
@@ -131,10 +132,10 @@
 				</ul>
 			</div>
 			<div  id="footer">
-				<h3 id="copyright"><a href="//www.opensource.org/licenses/mit-license.php" target="_blank" title="MIT License" rel="license">Some Rights Reserved</a> by <a target="_blank" href="//dmitry.baranovskiy.com/">Dmitry Baranovskiy</a></h3>
+				<h3 id="copyright"><a href="//www.opensource.org/licenses/mit-license.php" target="_blank" title="MIT License" rel="license">版权所有: </a>  <a target="_blank" href="//dmitry.baranovskiy.com/">Dmitry Baranovskiy</a></h3>
 			</div>
 		</div>
-		<script src="../raphaeljs/raphael.js"></script>
+		<script src="src/raphael-min.js"></script>
 		<script src="site.js"></script>
 	</body>
 </html>
