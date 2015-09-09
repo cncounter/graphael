@@ -5,6 +5,8 @@
         <title>gRaphaël Static Pie Chart</title>
         <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="css/demo-print.css" type="text/css" media="print" charset="utf-8">
+    	<link rel="apple-touch-icon-precomposed" href="gRaphael.png"/>
+		<link rel="shortcut icon" href="favicon16.png" type="image/x-icon">
         <script src="src/raphael-min.js" type="text/javascript" charset="utf-8"></script>
         <script src="src/g.raphael.js" type="text/javascript" charset="utf-8"></script>
         <script src="src/g.pie.js" type="text/javascript" charset="utf-8"></script>
@@ -12,15 +14,15 @@
             window.onload = function () {
                 var r = Raphael("holder");
 
-                r.text(320, 70, "Static Pie Chart").attr({ font: "20px 'Fontin Sans', Fontin-Sans, sans-serif" });
+                r.text(320, 70, "静态饼图(Static Pie Chart)").attr({ font: "20px 'Fontin Sans', Fontin-Sans, sans-serif" });
                 r.piechart(320, 240, 150, [55, 20, 13, 32, 5, 1, 2, 10]);
             };
         </script>
-    </head>
+	</head>
     <body class="raphael" id="g.raphael.dmitry.baranovskiy.com">
         <div id="holder"></div>
         <p>
-            Demo of <a href="http://g.raphaeljs.com/">gRaphaël</a> JavaScript library.
+            <a href="http://blog.cncounter.com/graphael/">gRaphael</a> 库对应的示例Demo.
         </p>
     </body>
 </html>
